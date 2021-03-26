@@ -1,0 +1,22 @@
+.nav-menu{
+    margin-top: 5px;
+    justify-content: space-around;
+    color: rgb(172, 172, 172);
+    user-select: none;
+}
+.nav-menu div:last-child{
+    cursor: pointer;
+}
+
+.tabs{
+    list-style: none;
+}
+.tabs .tabs-item{
+    cursor: pointer;
+    margin-right: 10px;
+}
+.tabs .tabs-item.active{
+    border: 1px solid rgba(175, 47, 47, 0.3);
+    border-radius: 3px;
+    padding: 2px;
+}
